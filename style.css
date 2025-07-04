@@ -1,0 +1,759 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111 !important; 
+    color: #ddd !important;
+
+}
+html, body {
+  margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+.map-section, .image-box {
+  width: 100vw; 
+  margin: 0;
+  padding: 0;
+}
+.leftBothRadius{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.bdr{
+    border: 1px solid #f6c400; 
+}
+.rightBothRadius{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+/* Navbar Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Dark background for body */
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #1c1c1c;
+  padding: 10px;
+  text-align: left;
+}
+
+.login-btn {
+  background-color: #f6c400;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #000;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #d9a100;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-top: 60px;
+}
+
+.modal-content {
+  background-color: #333;
+  color: white;
+  margin: 5% auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.close-btn {
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #444;
+  color: #fff;
+}
+
+button.modal-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #f6c400;
+  border: none;
+  color: #000;
+  cursor: pointer;
+}
+
+button.modal-btn:hover {
+  background-color: #d9a100;
+}
+
+
+
+
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close-btn {
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Style for the search button */
+.search-btn {
+  padding: 5px 10px;
+  background-color: #f6c400;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.search-btn:hover {
+  background-color: #e5b100;
+}
+
+/* Style for search input */
+.search-input {
+  display: none;
+  padding: 5px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for results container */
+#searchResults {
+  margin-top: 20px;
+}
+
+
+/* Hero Section */
+.hero {
+    background: url('assets/images/background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f6c400;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* Buttons */
+.btn-warning {
+    background-color: #f6c400;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.btn-warning:hover {
+    background-color: #d9a800; 
+}
+
+.btn-outline-light {
+    border-color: #f6c400;
+    color: #f6c400;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover {
+    background-color: #f6c400;
+    color: #111;
+}
+
+/* Specifications Section */
+.spec-box {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+/* Video Wrapper */
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: #111;
+}
+.video-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.custom-video {
+    width: 100%;
+    height: 250px;
+    display: block;
+    cursor: pointer;
+    object-fit: cover;
+}
+.custom-video::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Play Button */
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+  background: rgba(144, 143, 143, 0.6);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.play-button:hover {
+    background: rgba(255, 215, 0, 1);
+}
+
+/* Hide Play Button When Video Plays */
+.video-wrapper.playing .play-button {
+    display: none;
+}
+
+/* Overview Section */
+.overview-section {
+    background-color: #181818;  
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+}
+
+/* Title Styling */
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #c9c8c5; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+}
+
+/* Overview Text */
+.overview-text {
+    font-size: 15px;
+    font-weight: 400;
+    color: #555;
+    line-height: 1.6;
+    text-align: left;
+    margin: auto;
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .overview-text {
+        font-size: 1rem;
+    }
+}
+
+/* Gallery */
+/* Image Box Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-fluid, .row {
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.col-lg-8, .col-lg-4 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* General Image Box Styling */
+.image-box {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.full-height {
+  height: 510px;
+}
+
+/* Background Images */
+.exterior {
+  background-image: url('assets/images/interior.jpg');
+}
+.driving {
+  background-image: url('assets/images/driving.jpg');
+}
+.interior {
+  background-image: url('assets/images/exterior.jpg');
+}
+.engine {
+  background-image: url('assets/images/engine.jpg');
+}
+
+/* Overlay Text */
+.overlay-text {
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.overlay-text h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.overlay-text p {
+  font-size: 1.2rem;
+  color: #f6c400;
+}
+
+  /* Overlay Text */
+  .overlay-text {
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  }
+  
+  .overlay-text h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .overlay-text p {
+    font-size: 1.2rem;
+    color: #f6c400; 
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .image-box {
+      height: 200px;
+    }
+    .full-height {
+      height: 400px; 
+    }
+    .overlay-text h3 {
+      font-size: 1.4rem;
+    }
+    .overlay-text p {
+      font-size: 1rem;
+    }
+  }
+
+/* Seller Info */
+.seller-info {
+    background: #181818;
+    padding: 30px;
+    border-radius: 10px;
+    color: #f6c400;
+}
+
+/* SHOWCASE SECTION */
+.showcaseDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.displayNone {
+  display: none;
+}
+
+.showCaseH {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+.showCaseH p {
+  font-size: 30px;
+  font-weight: 700;
+  color: gray;
+}
+
+/* SHOWCASE IMAGE */
+.showcaseImg {
+  max-height: 200px;
+  border-radius: 15px;
+  filter: drop-shadow(0 6mm 10mm #000000e3);
+}
+
+.showcaseFilter {
+  filter: drop-shadow(15px 10px 10px #000) brightness(0.5);
+  transition: transform 0.4s ease-in-out;
+}
+
+.showcaseFilter:hover {
+  transform: scale(0.95);
+}
+
+/* FEATURE SECTION */
+.featureDiv {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  color: gray;
+}
+
+.featureBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100px;
+  background-color: #111;
+  color: gray;
+  border: none;
+  padding: 0;
+}
+
+/* FEATURE IMAGE */
+.featureImg {
+  width: 25px;
+  height: 25px;
+}
+
+.featureImgDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: gray;
+  border-radius: 50%;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.featureImgDiv:hover {
+  background-color: darkgray;
+}
+
+/* FEATURE TEXT */
+.featureText {
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-top: 15px;
+  color: gray;
+}
+
+/* SCROLLABLE TEXT SECTION */
+.loremRow {
+  max-height: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: darkgray transparent;
+}
+
+.loremText {
+  font-size: 13px;
+  line-height: 25px;
+  padding-top: 15px;
+  color: gray;
+}
+
+/* MAP */
+.map-section {
+  height: 50vh;
+}
+.map-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.info-section {
+  background: url('assets/images/card.jpg') no-repeat center center/cover;
+  height: 50vh;
+  color: #f4a51c;
+  position: relative;
+}
+.info-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+.info-section > div {
+  position: relative;
+  z-index: 1;
+}
+.price-section {
+  background-color: #B9971D;
+  color: black;
+  height: 50vh;
+}
+.seller-garage {
+  background: #444;
+  height: 50vh;
+  color: #e0e0e0;
+}
+.car-card {
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.ferrari-f12 {
+  background-image: url('assets/images/engine.jpg');
+}
+.ferrari-gtc4 {
+  background-image: url('assets/images/interior.jpg');
+}
+.btn-dark {
+  background-color: black;
+  border: none;
+  color: white;
+}
+
+
+/* SPARATE SECTION */
+
+.spartan-section {
+  display: flex;
+  height: 200px;
+  justify-content: space-around;
+  align-items: center;
+  background: #1a1a1a;
+  padding: 20px 50px;
+  color: white;
+  text-align: center;
+}
+.spartan-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.spartan-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.spartan-links a:hover {
+  color: #f6c400;
+}
+.spartan-logo {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 10px 0;
+}
+.spartan-social a {
+  color: white;
+  font-size: 20px;
+  margin: 0 10px;
+}
+.spartan-social a:hover {
+  color: #f6c400;
+}
+i {
+  font-size: 24px; 
+  color: white;
+}
+
+/* Icon Container */
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+}
+
+/* Icons */
+.icon-container i {
+  font-size: 30px;
+  margin: 0 15px;
+  color: #ffff; 
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Hover Effect */
+.icon-container i:hover {
+  color: #555;
+  transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+    background: #0d0d0d;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Flexbox for horizontal alignment */
+.footer-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.footer-item {
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Car Selection Section */
+
+.car-btn {
+  background-color: #f6c400;
+  color: #000;
+  border: 2px solid #f6c400;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 8px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.car-btn:hover {
+  background-color: transparent;
+  color: #f6c400;
+  border: 2px solid #f6c400;
+}
