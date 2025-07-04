@@ -27,7 +27,7 @@ An online car dealing platform that allows users to explore car listings, view a
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](screenshots/homepage.png)
+![Home Page](https://github.com/Kartik392/Car-dealing-web/blob/fafa18a36c88b334665b198a8a7437f16d79a50a/index.png)
 
 ### 📷 Gallery Page
 ![Gallery Page](screenshots/gallery.png)
